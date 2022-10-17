@@ -1,0 +1,34 @@
+{
+  "name": "rock-paper-scissors-challenge",
+  "version": "1.0.0",
+  "description": "Instructions\r -------",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit",
+    "start": "nodemon app"
+  },
+  "author": "dearshrewdwit",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gibbuk/rock-paper-scissors-challenge.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/gibbuk/rock-paper-scissors-challenge/issues"
+  },
+  "homepage": "https://github.com/gibbuk/rock-paper-scissors-challenge#readme",
+  "dependencies": {
+    "chai-spies": "^1.0.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "sinon": "^14.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  }
+}

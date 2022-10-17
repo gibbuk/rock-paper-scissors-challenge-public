@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors!</title>
+</head>
+
+<body>
+    <h1>
+        <%= name %>, choose your move!
+    </h1>
+
+    <form action="/endofround" method="post">
+        <select name="playerMove" id="choose-list">
+            <option value="rock">Rock</option>
+            <option value="paper">Paper</option>
+            <option value="scissors">Scissors</option>
+        </select>
+        <input id="choose-move-button" type="submit" value="submit">
+    </form>
+</body>
+
+</html>

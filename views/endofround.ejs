@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors!</title>
+</head>
+
+<body>
+    <h2>
+        <%= `${player1.getName()}` %> choose <%= `${player1.getCurrentMove()}` %>
+
+    </h2>
+    <h2>
+        <%= `${player2.getName()}` %> choose <%= `${player2.getCurrentMove()}` %>
+    </h2>
+    <h1>
+        <%= `${result}` %>
+    </h1>
+    <br>
+    <h1>
+        The total scores for the game are:
+    </h1>
+    <h2>
+        <%= `${player1.getName()}` %>:
+            <%= `${player1.getScore()}` %>
+    </h2>
+    <h2>
+        <%= `${player2.getName()}` %>:
+            <%= `${player2.getScore()}` %>
+    </h2>
+
+
+    <a id="turn-link" href="/game">Play another round!</a>
+</body>
+
+</html>
